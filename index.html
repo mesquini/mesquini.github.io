@@ -6,8 +6,9 @@
         <link rel="apple-touch-icon" sizes="76x76" href="/img/icon/apple-icon.png">
         <link rel="icon" type="image/png" href="/img/icon/favicon.png">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <title>Victor Mesquini</title>
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+
+        <title>Victor Mesquini</title>
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
@@ -40,18 +41,8 @@
             $("#header").load("components/header.html");
         });
         $(function () {
-            $("#modalReadme").load("components/modalReadme.html");
-        });
-        $(function () {
             $("#footer").load("components/footer.html");
         });
-        $(function () {
-            //$("#readme").load("https://github.com/mesquini/TinDev/blob/master/README.md")
-            //$("#readme").load("https://raw.githubusercontent.com/mesquini/TinDev/master/README.md");
-        });
-        $("#readme").load(function () {
-            window.location = "https://github.com/mesquini/TinDev/blob/master/README.md";
-        })
     </script>
 
     <script>hljs.initHighlightingOnLoad();</script>
@@ -91,13 +82,6 @@
             <div class="section">
                 <div class="container">
                     <h1 class="title text-center">Victor Mesquini</h1>
-                    <br />
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                        Launch demo modal
-                    </button>
-
-                    <div id="modalReadme"></div>
-
                     <br />
                     <div id="disqus_thread">
                         <script>
