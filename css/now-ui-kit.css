@@ -5178,7 +5178,6 @@ img {
     margin: 0 1rem;
     margin-bottom: 15px;
     padding-top: 0;
-    height: 150px;
     overflow-y: scroll;
   }
   .sidebar-collapse .navbar .dropdown.show .dropdown-menu:before,
