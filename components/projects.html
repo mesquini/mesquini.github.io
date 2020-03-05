@@ -12,7 +12,9 @@
       CSS e C# para desenvolver o projeto. Para banco de dados foi MySQL.
       Para hospedar o site utilizamos o <a href="https://azure.microsoft.com/" target="_blank">Portal Azure</a>.
       <br />
-      Acessar o <a href="https://pokedex-list.netlify.com/" target="_blank" rel="tooltip" title="Clique para acessar o site">Site</a>.
+      Acessar o <a href="http://lifemore.azurewebsites.net/" target="_blank" rel="tooltip" title="Clique para acessar o site">Site</a>.
+      <br />
+      <button type="button" class="btn btn-primary" onclick="loadReadme('lifemore')" data-toggle="modal" data-target="#exampleModalCenter">Detalhes</button>
     </h5>
     <a class="title" id="biblioteca" rel="tooltip" title="Clique para acessar o repositorio" href="https://github.com/mesquini/library-db-java-aps" target="_blank">
       <h2 class="title">Gerenciador de Biblioteca: Um simples gerenciador de livros</h2>
@@ -25,6 +27,8 @@
       Com as seguintes ações de cadastrar, editar, ver e deletar os livros,
       autores e editoras, fazendo o relacionamento aonde livro tem uma editora e
       um ou mais autores.
+      <br />
+      <button type="button" class="btn btn-primary" onclick="loadReadme('library')" data-toggle="modal" data-target="#exampleModalCenter">Detalhes</button>
     </h5>
     <a class="title" id="instagram" rel="tooltip" title="Clique para acessar o repositorio" href="https://github.com/mesquini/clone_instagram" target="_blank">
       <h2 class="title">Clone do Instagram</h2>
@@ -37,6 +41,8 @@
       com o proposito de aprender NodeJS, ReactJS e React Native. Com o desenvolvimento
       desse projeto aprendi mais sobre os pacotes axios, cors, socket.io, mongoose,
       e express.
+      <br />
+      <button type="button" class="btn btn-primary" onclick="loadReadme('instagram')" data-toggle="modal" data-target="#exampleModalCenter">Detalhes</button>
     </h5>
     <a class="title" id="tindev" rel="tooltip" title="Clique para acessar o repositorio" href="https://github.com/mesquini/tindev" target="_blank">
       <h2 class="title">TinDev: Tinder para desenvolvedores fazerem pair programming</h2>
@@ -52,6 +58,8 @@
       Para hospedar esse site eu utilizei o <a href="https://www.heroku.com/" target="_blank">Heroku</a>.
       <br />
       Acessar o <a href="https://tinderdev-frontend.herokuapp.com/" target="_blank" rel="tooltip" title="Clique para acessar o site">Site</a>.
+      <br />
+      <button type="button" class="btn btn-primary" onclick="loadReadme('tindev')" data-toggle="modal" data-target="#exampleModalCenter">Detalhes</button>
     </h5>
     <a class="title" id="pokedex" rel="tooltip" title="Clique para acessar o repositorio" href="https://github.com/mesquini/pokedex" target="_blank">
       <h2 class="title">Pokedex da primeira geração de pokemons</h2>
@@ -64,6 +72,8 @@
       Para hospedar o frontend utilizei o <a href="https://www.netlify.com/" target="_blank">Netfily</a>.
       <br />
       Acessar o <a href="https://pokedex-list.netlify.com/" target="_blank" rel="tooltip" title="Clique para acessar o site">Site</a>.
+      <br />
+      <button type="button" class="btn btn-primary" onclick="loadReadme('pokedex')" data-toggle="modal" data-target="#exampleModalCenter">Detalhes</button>
     </h5>
     <a class="title" id="aircnc" rel="tooltip" title="Clique para acessar o repositorio" href="https://github.com/mesquini/aircnc" target="_blank">
       <h2 class="title">Aircnc: O Airbnb para os desenvolvedores</h2>
@@ -79,6 +89,8 @@
       <a href="https://expo.io/" target="_blank">Expo</a>. Com o desenvolvimento
       desse APP aprendi mais sobre React Native e alguns pacotes como react-native-web, react-navigation
       e socket.io-client.
+      <br />
+      <button type="button" class="btn btn-primary" onclick="loadReadme('aircnc')" data-toggle="modal" data-target="#exampleModalCenter">Detalhes</button>
     </h5>
     <a class="title" id="devradar" rel="tooltip" title="Clique para acessar o repositorio" href="https://github.com/mesquini/semanaomnistack10" target="_blank">
       <h2 class="title">DevRadar: Um radar para encotrar programadores proximo de você</h2>
@@ -95,14 +107,25 @@
       <a href="https://expo.io/" target="_blank">Expo</a>. Com o desenvolvimento
       desse APP aprendi mais sobre React Native e alguns pacotes como react-native-web, react-navigation
       ,react-native-webview, react-native-maps, expo-location e socket.io-client.
+      <br />
+      <button type="button" class="btn btn-primary" onclick="loadReadme('devradar')" data-toggle="modal" data-target="#exampleModalCenter">Detalhes</button>
     </h5>
   </div>
 </div>
 
-<script>
+<div id="modalReadme"></div>
+
+<script type="text/javascript">
   $(function () {
     var count = document.querySelector("#projects > div > div").getElementsByTagName("h2").length;
     var h1 = document.querySelector("#count");
     h1.innerHTML = "Total de projetos " + count;
   })
+
+  $(function () {
+    $("#modalReadme").load("../components/modal.html");
+  });
+  function loadReadme(name) {
+    $("#readme").load(`../components/readme/${name}.html`);
+  };
 </script>
