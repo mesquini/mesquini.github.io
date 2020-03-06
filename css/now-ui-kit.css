@@ -2749,8 +2749,9 @@ p.description {
 .description,
 .card-description,
 .footer-big p {
-  color: #9a9a9a;
+  color: #3b3939;
   font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .category {
   text-transform: uppercase;
@@ -4695,7 +4696,7 @@ img {
 }
 .page-header .category,
 .page-header .description {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.418);
 }
 .page-header.page-header-small {
   height: 60vh;
