@@ -1,0 +1,124 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title_1": "LifeMore",
+      "title_2": "LifeMore: Site sobre nutrição",
+      "description": "Projeto realizado no TCC do Técnico de informatica no SENAI. Site ASP.NET foi desenvolvido no padrão MVC. Utilizamos JavaScript, HTML, CSS e C# para desenvolver o projeto. Para banco de dados foi MySQL. Para hospedar o site utilizamos o <a href='https://azure.microsoft.com/' target='_blank'>Portal Azure</a>. <br /> Acessar o <a href='http://lifemore.azurewebsites.net/' target='_blank' rel='tooltip' title='Clique para acessar o site'>Site</a>.<br />",
+      "date": "20 de Outubro de 2018",
+      "images": [
+        {
+          "id": 1,
+          "url": ""
+        }
+      ],
+      "url_site": "http://lifemore.azurewebsites.net/",
+      "url_github": "https://github.com/mesquini/lifemore"
+    },
+    {
+      "id": 2,
+      "title_1": "Gerenciador de Bibliotecas",
+      "title_2": "Gerenciador de Biblioteca: Um simples gerenciador de livros",
+      "description": "Projeto da faculdade em JAVA com a arquitetura MVC integrado com BD PostgreSQL e interface grafica Swing. Com as seguintes ações de cadastrar, editar, ver e deletar os livros, autores e editoras, fazendo o relacionamento aonde livro tem uma editora e um ou mais autores.<br />",
+      "date": "13 de Novembro de 2019",
+      "images": [
+        {
+          "id": 1,
+          "url": ""
+        }
+      ],
+      "url_site": "",
+      "url_github": "https://github.com/mesquini/library-db-java-aps"
+    },
+    {
+      "id": 3,
+      "title_1": "Clone do Instagram",
+      "title_2": "Clone do Instagram",
+      "description": "Projeto desenvolvido na <a href='https://rocketseat.com.br/' target='_blank'>Semana Omnistack 7.0</a>, com o proposito de aprender NodeJS, ReactJS e React Native. Com o desenvolvimento desse projeto aprendi mais sobre os pacotes axios, cors, socket.io, mongoose, e express. <br />",
+      "date": "Desenvolvido - 18 de Junho de 2019",
+      "images": [
+        {
+          "id": 1,
+          "url": ""
+        }
+      ],
+      "url_site": "",
+      "url_github": "https://github.com/mesquini/clone_instagram"
+    },
+    {
+      "id": 4,
+      "title_1": "TinDev",
+      "title_2": "TinDev: Tinder para desenvolvedores fazerem pair programming",
+      "description": "Projeto desenvolvido na <a href='https://rocketseat.com.br/' target='_blank'>Semana Omnistack 8.0</a>, com o proposito de aprender NodeJS, ReactJS e React Native. Esse projeto foi o inicio dos meus estudos sobre essa stack, com o desenvolvimento desse projeto aprendi sobre os pacotes axios, cors, socketio, mongoose e express. Para hospedar esse site eu utilizei o <a href='https://www.heroku.com/' target='_blank'>Heroku</a>. <br /> Acessar o <a href='https://tinderdev-frontend.herokuapp.com/' target='_blank' rel='tooltip' title='Clique para acessar o site'>Site</a>. <br />",
+      "date": "04 de Setembro de 2019",
+      "images": [
+        {
+          "id": 1,
+          "url": ""
+        }
+      ],
+      "url_site": "https://tinderdev-frontend.herokuapp.com/",
+      "url_github": "https://github.com/mesquini/tindev"
+    },
+    {
+      "id": 5,
+      "title_1": "Pokedex",
+      "title_2": "Pokedex da primeira geração de pokemons",
+      "description": "Projeto desenvolvido para fins de estudos em ReactJS. Utilizei os pacotes axios, react-bootstrap, bootstrap e material-ui. Para hospedar o frontend utilizei o <a href='https://www.netlify.com/' target='_blank'>Netfily</a>. <br /> Acessar o <a href='https://pokedex-mesquini.netlify.com/' target='_blank' rel='tooltip' title='Clique para acessar o site'>Site</a>.<br />",
+      "date": "11 de Fevereiro de 2020",
+      "images": [
+        {
+          "id": 1,
+          "url": ""
+        }
+      ],
+      "url_site": "https://pokedex-mesquini.netlify.com/",
+      "url_github": "https://github.com/mesquini/pokedex"
+    },
+    {
+      "id": 6,
+      "title_1": "AirCnC",
+      "title_2": "AirCnC: O AirBnB para os desenvolvedores",
+      "description": "Projeto desenvolvido na <a href='https://rocketseat.com.br/' target='_blank'>Semana Omnistack 9.0</a>, com o proposito de aprender mais sobre NodeJS, ReactJS e React Native. Com o desenvolvimento desse projeto aprendi mais sobre os pacotes axios, cors, socket.io, mongoose e express. <br />Foi criado também o aplicativo mobile, onde foi utilizado o framework <a href='https://expo.io/' target='_blank'>Expo</a>. Com o desenvolvimento desse APP aprendi mais sobre React Native e alguns pacotes como react-native-web, react-navigation e socket.io-client. <br />",
+      "date": "5 de Novembro de 2019",
+      "images": [
+        {
+          "id": 1,
+          "url": ""
+        }
+      ],
+      "url_site": "",
+      "url_github": "https://github.com/mesquini/aircnc"
+    },
+    {
+      "id": 7,
+      "title_1": "DevRadar",
+      "title_2": "DevRadar: Um radar para encotrar programadores proximo de você",
+      "description": "Projeto desenvolvido na <a href='https://rocketseat.com.br/' target='_blank'>Semana Omnistack 10.0</a>, com o proposito de aprender mais sobre NodeJS, ReactJS e React Native. Com o desenvolvimento desse projeto aprendi mais sobre os pacotes axios, cors, socket.io, mongoose, Material Icons e express. <br />Foi criado também o aplicativo mobile, onde foi utilizado o framework <a href='https://expo.io/' target='_blank'>Expo</a>. Com o desenvolvimento desse APP aprendi mais sobre React Native e alguns pacotes como react-native-web, react-navigation, react-native-webview, react-native-maps, expo-location e socket.io-client. <br />",
+      "date": "20 de Janeiro de 2020",
+      "images": [
+        {
+          "id": 1,
+          "url": ""
+        }
+      ],
+      "url_site": "",
+      "url_github": "https://github.com/mesquini/semanaomnistack10"
+    },
+    {
+      "id": 8,
+      "title_1": "Rocketshoes",
+      "title_2": "Rocketshoes: Clone da NetShoes",
+      "description": "Projeto desenvolvido no <a href='https://rocketseat.com.br/' target='_blank'>GoStack 10</a>, com o proposito de aprender sobre Redux e ReactJS. Basicamente é um E-commerce de tenis, aonde você tem duas telas, o de produtos e do carrinho. <br /> Acessar o <a href='https://rocketshoes-mesquini.netlify.com/' target='_blank' rel='tooltip' title='Clique para acessar o site'>Site</a>.  <br />",
+      "date": "01 de Março de 2020",
+      "images": [
+        {
+          "id": 1,
+          "url": ""
+        }
+      ],
+      "url_site": "https://rocketshoes-mesquini.netlify.com/",
+      "url_github": "https://github.com/mesquini/rocketshoes"
+    }
+  ]
+}

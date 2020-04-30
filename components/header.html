@@ -1,9 +1,16 @@
 <script src="/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+<script type="text/javascript" src="/js/loadJson.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function () {
 
         nowuiKit.initSliders();
+    });
+
+    loadJSON(function (response) {
+        // Parse JSON string into object
+        var { projects } = JSON.parse(response);
+        loadTitle(projects);
     });
 </script>
 
@@ -25,17 +32,10 @@
                         <i class='now-ui-icons objects_spaceship'></i>
                         <span>Projetos</span>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div id="dropdown-menu" class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../pages/projects.html">Ver todos</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="../pages/projects.html#lifemore">LifeMore</a>
-                        <a class="dropdown-item" href="../pages/projects.html#biblioteca">Gerenciador de Bibliotecas</a>
-                        <a class="dropdown-item" href="../pages/projects.html#instagram">Clone Instagram</a>
-                        <a class="dropdown-item" href="../pages/projects.html#tindev">TinDev</a>
-                        <a class="dropdown-item" href="../pages/projects.html#pokedex">Pokedex</a>
-                        <a class="dropdown-item" href="../pages/projects.html#aircnc">Aircnc</a>
-                        <a class="dropdown-item" href="../pages/projects.html#devradar">DevRadar</a>
-                        <a class="dropdown-item" href="../pages/projects.html#rocketshoes">Rocketshoes</a>
+                        <div id="loadJsonHeader"></div>
                     </div>
                 </li>
                 <li class="nav-item">
